@@ -1,0 +1,131 @@
+body {
+  background-color: black;
+  font-family: "OpenDyslexic";
+}
+
+header {
+  background-color: cyan;
+  color: black;
+  height: 100px;
+  position: sticky;
+  top: 0px;
+}
+.website {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.web {
+  padding: 50px;
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  position: sticky;
+  top: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 50px;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-items:hover {
+  text-decoration: underline double black;
+  transition: ease;
+}
+
+h1,
+h2,
+h3 {
+  color: cyan;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+hr {
+  border-color: cyan;
+}
+
+table {
+  color: black;
+  text-align: center;
+}
+
+.service-table {
+  background-color: white;
+  padding: 50px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: double underline;
+}
+
+footer {
+  padding: 20px;
+  background-color: cyan;
+  height: 100px;
+}
+
+.form-thing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section {
+  width: 500px;
+  color: white;
+}
+
+legend {
+  color: cyan;
+}
+fieldset {
+  border-color: cyan;
+}
+
+#submit-button {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  border-color: black;
+  color: black;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 100px;
+}
+
+#submit-button:hover {
+  background-color: orangered;
+  color: black;
+  border-color: black;
+}
